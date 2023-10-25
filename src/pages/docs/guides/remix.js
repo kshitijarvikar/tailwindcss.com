@@ -18,22 +18,6 @@ let steps = [
     },
   },
   {
-    title: 'Enable built-in Tailwind CSS support in Remix',
-    body: () => (
-      <p>
-        Set the <code>tailwind</code> flag in your <code>remix.config.js</code> file.
-      </p>
-    ),
-    code: {
-      name: 'remix.config.js',
-      lang: 'js',
-      code: `  /** @type {import('@remix-run/dev').AppConfig} */
-  module.exports = {
->   tailwind: true,
-  }`,
-    },
-  },
-  {
     title: 'Install Tailwind CSS',
     body: () => (
       <p>
@@ -51,7 +35,7 @@ let steps = [
     title: 'Configure your template paths',
     body: () => (
       <p>
-        Add the paths to all of your template files in your <code>tailwind.config.js</code> file.
+        Add the paths to all of your template files in your <code>tailwind.config.ts</code> file.
       </p>
     ),
     code: {
